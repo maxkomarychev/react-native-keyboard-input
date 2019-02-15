@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/wix/react-native-keyboard-input.git", :tag => "#{s.version}" }
   s.source_files  = "lib/ios/**/*.{h,m}"
-  s.exclude_files  = "lib/ios/LNInterpolation/**/*.*", "lib/ios/RCTCustomInputController/**/*.*"
+  s.exclude_files  = ""
 
   s.dependency 'React'
   s.frameworks = 'UIKit'
